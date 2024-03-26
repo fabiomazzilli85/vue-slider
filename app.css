@@ -16,11 +16,6 @@ body {
     justify-content: center;
 }
 
-.row {
-    display: flex;
-    flex-wrap: wrap;
-}
-
 img {
     width: 100%;
     aspect-ratio: 16/9;

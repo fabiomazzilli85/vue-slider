@@ -22,8 +22,8 @@ body {
 }
 
 img {
-    max-width: 600px;
-    aspect-ratio: 1;
+    max-width: 800px;
+    aspect-ratio: 16/9;
     object-fit: cover;
 }
 

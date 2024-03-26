@@ -11,6 +11,7 @@ body {
 .container {
     max-width: 1000px;
     margin: 0 auto;
+    height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -36,9 +37,12 @@ h2 {
 
 .img-hidden {
     display: none;
-  }
+}
 
-  .considerazioni {
-    line-height: 26px;
-    margin-bottom: 30px;
-  }
+.arrow-right {
+    margin-left: 25px;
+}
+
+.arrow-left {
+    margin-right: 25px;
+}

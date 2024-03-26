@@ -3,7 +3,6 @@ const { createApp } = Vue;
 createApp({
   data() {
     return {
-        considerazioni: 'È curioso lavorare con JS per creare contenuti da inserire direttamente nel DOM. Preferisco questo approccio a quello tradizionale, che è più lento. Tutta la parte relativa agli Array e alle immagini non ha causato problemi. Per quanto riguarda il timer, ho avuto modo di usarlo in un lavoro precedente ma ho di fatto copiato il codice perchè non ne ricordavo la sintassi. Il blocco del timer quando si passa sulle immagini l ho cercato su Chat GPT e l ho implementato con un banalissmo copia e incolla.',
       games: [
         {
           image: 'img/01.webp',

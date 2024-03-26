@@ -24,3 +24,7 @@ img {
     aspect-ratio: 1;
     object-fit: cover;
 }
+
+.img-hidden {
+    display: none;
+  }

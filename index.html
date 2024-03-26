@@ -13,7 +13,9 @@
             <div v-for="(game, index) in games" :key="index" :class="{ 'img-hidden': index !== activeIndex }" @mouseover="pauseAutoplay" @mouseout="restartAutoplay">
                 <img :src="game.image" alt="Game Images">
                 <h2>{{ game.title }}</h2>
-                <p>{{ game.text }}</p>
+                <p class="testo">{{ game.text }}</p>
+
+                <p class="considerazioni">{{ considerazioni }}</p>
               </div>
         </div>
 

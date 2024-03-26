@@ -23,7 +23,7 @@ body {
 }
 
 img {
-    max-width: 800px;
+    width: 100%;
     aspect-ratio: 16/9;
     object-fit: cover;
     margin-bottom: 15px;
@@ -34,10 +34,16 @@ h2 {
     margin-bottom: 10px;
 }
 
-p {
+.testo {
     text-align: center;
+    margin-bottom: 30px;
 }
 
 .img-hidden {
     display: none;
+  }
+
+  .considerazioni {
+    line-height: 26px;
+    margin-bottom: 30px;
   }

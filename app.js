@@ -35,9 +35,20 @@ createApp({
     };
   },
   mounted() {
-    this.autoplayInterval = setInterval(() => {
-      this.activeIndex = (this.activeIndex + 1) % this.games.length;
-    }, 3000);
+    this.startAutoplay();
+  },
+  methods: {
+    startAutoplay() {
+      this.autoplayInterval = setInterval(() => {
+        this.activeIndex = (this.activeIndex + 1) % this.games.length;
+      }, 3000);
+    },
+    pauseAutoplay() {
+      clearInterval(this.autoplayInterval);
+    },
+    restartAutoplay() {
+      this.startAutoplay();
+    }
   },
   beforeUnmount() {
     clearInterval(this.autoplayInterval);

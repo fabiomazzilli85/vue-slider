@@ -41,7 +41,7 @@ createApp({
     startAutoplay() {
       this.autoplayInterval = setInterval(() => {
         this.activeIndex = (this.activeIndex + 1) % this.games.length;
-      }, 40);
+      }, 3000);
     },
     pauseAutoplay() {
       clearInterval(this.autoplayInterval);
